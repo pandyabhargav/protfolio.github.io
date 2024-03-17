@@ -1,0 +1,109 @@
+@media(max-width:575px){
+    .container{
+        width:100%;
+    }
+    .h-0-tag{
+        font-size: 40px;
+    }
+    .logo a{
+        color: var(--h-color);
+        font-size: 19px;
+    }
+    .h-tag{
+        font-size: 40px;
+    }
+    .h1-tag{
+        font-size: 20px;  
+        justify-content: center;
+        display: flex;
+    }
+    .star{
+        width: 10%;
+    }
+    .buton i{
+        font-size: 30px;
+    }
+    .logo a{
+        color: var(--h-color);
+        font-size: 22px;
+    }
+    .sun img {
+        width: 100%;
+    }
+
+    
+}
+@media(min-width:576px){
+    .container{
+        width:540px;
+    }
+    .h-0-tag{
+        font-size: 15px;
+    }
+    .h1-tag{
+        font-size: 20px;  
+    }
+    .h1-tag{
+        font-size: 25px;  
+        justify-content: center;
+        display: flex;
+    }
+    .logo a{
+        color: var(--h-color);
+        font-size: 25px;
+    }
+    
+}
+@media(min-width:768px){
+    .container{
+        width:720px;
+    }
+
+    .h1-tag{
+        font-size: 40px;  
+        justify-content: center;
+        display: flex;
+    }
+    .logo a{
+        color: var(--h-color);
+        font-size: 30px;
+    }
+    
+}
+@media(min-width:992px){
+    .container{
+        width:960px;
+    }
+
+    .h-0-tag{
+        font-size: 40px;
+    }
+  
+    .h1-tag{
+        font-size: 60px;  
+        justify-content: center;
+        display: flex;
+    }
+    .logo {
+        color: var(--h-color);
+        font-size: 40px;
+    }
+}
+@media(min-width:1200px){
+    .container{
+        width: 1140px;;
+    }
+    .h-0-tag{
+        font-size: 60px;
+    }
+    .h1-tag{
+        font-size: 70px;  
+        justify-content: center;
+        display: flex;
+    }
+}
+@media(min-width:1400px){
+    .container{
+        width: 1320px;;
+    }
+}
