@@ -1,5 +1,6 @@
 body {
     background-color: var(--bg-body);
+    text-transform: uppercase;
 }
 
 ul,
@@ -300,4 +301,9 @@ label{
     
 }
 /* loder */
+.highlight {
+            color: #336dff; 
+            font-weight: bold;
+            font-size: 40px;
+}
 
