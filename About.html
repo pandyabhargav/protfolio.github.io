@@ -31,72 +31,82 @@
 
 <body>
 
+        <!-- Offcanvas menu (mobile) -->
     <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
         <div class="offcanvas-header">
             <div class="col-2 d-flex justify-content-start">
-                <h1 class="logo"><a href="#" class="text-dark"><span class="highlight">B</span>HARGAV</a></h1>
+                <h1 class="logo"><a href="#"><span class="highlight">B</span>HARGAV</a></h1>
             </div>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body bg-dark jus-co-center align-items-center">
             <nav class="col-12">
                 <ul class="nav justify-content-center flex-column align-items-center">
-                    <li class="nav-item  nav-li mx-2">
-                        <a class="nav-link" href="index.html">Home</a>
+                    <li class="nav-item nav-li mx-2">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item nav-li mx-2">
                         <a class="nav-link" href="About.html">About</a>
                     </li>
                     <li class="nav-item nav-li mx-2">
-                        <a class="nav-link" href="work.html">work</a>
+                        <a class="nav-link" href="work.html">Work</a>
                     </li>
                     <li class="nav-item nav-li mx-2">
-                        <a class="nav-link" href="contect.html">CONTACT  us</a>
+                        <a class="nav-link" href="contect.html">CONTACT US</a>
+                    </li>
+                    <li class="nav-item nav-li mx-2">
+                        <a class="nav-link" href="path/to/your-resume.pdf" download>
+                            <i class="fas fa-download me-2"></i>Resume
+                        </a>
                     </li>
                 </ul>
             </nav>
         </div>
     </div>
 
+    <!-- Main header -->
     <header class="pt-2">
         <div class="container-xl">
             <div class="row justify-content-center align-items-center">
-                <div class="col-3 d-flex justify-content-start">
+                <div class="col-2 d-flex justify-content-start">
                     <h1 class="logo"><a href="#"><span class="highlight">B</span>HARGAV</a></h1>
                 </div>
                 <nav class="col-6">
                     <ul class="nav justify-content-center d-none d-sm-none d-md-flex">
-                        <li class="nav-item  nav-li px-2">
-                            <a class="nav-link"  href="index.html">Home</a>
+                        <li class="nav-item nav-li px-2">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item nav-li px-2">
-                            <a class="nav-link" aria-current="page" href="About.html">About</a>
+                            <a class="nav-link" href="About.html">About</a>
                         </li>
                         <li class="nav-item nav-li px-2">
-                            <a class="nav-link" href="work.html">work</a>
+                            <a class="nav-link" href="work.html">Work</a>
                         </li>
                         <li class="nav-item nav-li px-2">
-                            <a class="nav-link" href="contect.html">CONTACT  us</a>
+                            <a class="nav-link" href="contect.html">Contact us</a>
                         </li>
                     </ul>
                 </nav>
-                <div class="col-2 d-flex justify-content-end">
-                    <button class="px-3 py-2 btn1 d-none d-sm-none d-md-block">
+                <div class="col-3 d-flex justify-content-end">
+                    <button class="px-3 py-2 btn1 d-none d-sm-none d-md-block me-2">
                         <a href="contect.html">
                             Let's talk
                         </a>
                     </button>
+                   
+                        <a href="pdf/bhargav-pandya.pdf" download class="px-3 py-2 btn1 d-none d-sm-none d-md-block me-2">
+                            <i class="fas fa-download me-2"></i> Resume
+                        </a>                  
+                    
                     <button class="btn d-md-none buton" type="button" data-bs-toggle="offcanvas"
                         data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
                         <i class="fa-solid fa-bars"></i>
                     </button>
-
                 </div>
                 <div class="col-1 d-block px-1 py-1 sun"><img src="images/sun.png" alt="sun" id="icons"></div>
             </div>
         </div>
     </header>
-
 
     <main>
         <section class="mt-5">
